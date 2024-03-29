@@ -8,14 +8,19 @@ import Container from "./Components/Container";
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
+      <Container></Container>
       <Routes>
         <Route path='/' element={<NavBar/>}/>
         <Route index element={<Home/>}/>
         <Route path='/Livros' element={<Livro/>}/>
         <Route path='/NovoLivro' element={<NovoLivro/>}/>
       </Routes>
+      </Container>
+      
       </BrowserRouter>
+     
     </div>
   );
 }
