@@ -1,23 +1,28 @@
 
-import { Outlet,link } from "react-router-dom";
+import { Outlet,Link } from "react-router-dom";
 import Container from "./Container";
-import styles from "./NavBar.modules"
-function NavBar(){
+import styles from "./NavBar.module.css"
+function NavBar() {
     return(
-        <>
-        <Container><ul className={styles.list}>
-            <li className={styles.iten}>
-                <link to='/'>Home</link>
-            </li>
-           <li className={styles.itens}>
-           <link to='/Livros'>Livros</link>
-           </li>
-            <li className={styles.itens}>
-            <link to='/NovoLivro'>Cadastrar livro</link>
-            </li>
-        </ul> </Container>
-        
-        </>
+        <div>
+            <Container>
+                <ul className={styles.list}>
+                    <li className={styles.item}>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to='/Livros'>Livros</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to='/NovoLivro'>CadastrarLivro</Link>
+                    </li>
+                    <li className={styles.item}>
+
+                    </li>
+                </ul>
+            </Container>
+            <Outlet/>
+        </div>
     )
 }
 export default NavBar;

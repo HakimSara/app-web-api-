@@ -1,9 +1,8 @@
-import Styles from "./Livro.module.css"
+import styles from "./Livro.module.css"
 function Livros(){
     return(
-        <section className={Styles.Livros}>
-        <h1>Aqui serão listados seus livros!</h1>
-        
+        <section className={styles.livro_container}>
+        <h1>Aqui vai ser listado seus livros</h1>
         </section>
     )
 }

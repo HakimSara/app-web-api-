@@ -1,5 +1,5 @@
-.Container{
-    width: 960px;
+.container{
+    width: 1200px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -9,5 +9,5 @@
 }
 
 .min_height{
-min-height:70px; ;
+    min-height: 75%;
 }

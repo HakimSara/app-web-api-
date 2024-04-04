@@ -1,4 +1,4 @@
-import styles from "./Container.module.css"
+import styles from "./container.module.css"
 function Container(props){
     return(
         <div className={`${styles.container} ${styles.min_height}`}>
@@ -7,3 +7,4 @@ function Container(props){
     )
 }
 export default Container;
+
