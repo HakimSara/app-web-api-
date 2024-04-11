@@ -17,8 +17,8 @@ function App() {
           <Routes>
             <Route path='/' element={<NavBar/>}>
               <Route index element={<Home/>}/>
-              <Route path='/NovoLivro' element={<NovoLivro/>}/>
               <Route path='/Livros' element={<Livros/>}/>
+              <Route path='/NovoLivro' element={<NovoLivro/>}/>
             </Route>
           </Routes>
         </Container>
