@@ -3,11 +3,11 @@
     flex-direction: column;
     margin-bottom: 1em;
 }
-.form-control label{
+.form_control label{
     padding: .7em;
     border-radius: 0;
     border: none;
 }
-.form-control input::placeholder{
+.form_control input::placeholder{
     color: #7b7b7b;
 }

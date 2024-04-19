@@ -1,5 +1,5 @@
 
-import { Outlet,Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import Container from "./Container";
 import styles from "./NavBar.module.css"
 function NavBar() {
@@ -11,10 +11,10 @@ function NavBar() {
                         <Link to='/'>Home</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/Livros'>Livros</Link>
+                        <Link to='/livros'>Livros</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/NovoLivro'>CadastrarLivro</Link>
+                        <Link to='/novolivro'>Cadastrar Livro</Link>
                     </li>
                     <li className={styles.item}>
 
